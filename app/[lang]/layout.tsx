@@ -74,7 +74,7 @@ const metaTranslations = {
     ogDescription:
       "Focused apps and tools for daily rituals, learning, and productivity.",
     twitterDescription:
-      "Independent tools & apps crafted with care and intent.",
+      "Independent tools & apps created with care and intent.",
     locale: "en_US",
     ogImage: "/assets/image/og-studio.png",
     ogImageAlt: "Maxi Ruti Studio - Apps Showcase",

@@ -19,7 +19,10 @@ export default function Footer() {
             rel='noopener noreferrer'
             className='inline-flex items-center gap-1 hover:text-primary-dark transition-colors'
           >
-            <span>{t("footer.builtBy")} maxiruti.com</span>
+            <span>
+              {/* {t("footer.builtBy")}  */}
+              maxiruti.com
+            </span>
             <ExternalLink className='w-3 h-3 opacity-70' />
           </a>
         </div>
