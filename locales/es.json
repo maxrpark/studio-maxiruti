@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Maxi Ruti Studio",
+    "subtitle": "Herramientas y aplicaciones independientes creadas con dedicación y diseño intencional.",
+    "portfolioLink": "Portafolio"
+  },
+  "filters": {
+    "all": "Todas",
+    "ios": "iOS",
+    "android": "Android"
+  },
+  "card": {
+    "featured": "Destacada",
+    "englishOnly": "Solo inglés",
+    "languagesCount": "{{count}} idiomas"
+  },
+  "actions": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "website": "Sitio Web"
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "pt": "Portugués",
+    "it": "Italiano",
+    "fr": "Francés",
+    "de": "Alemán"
+  },
+  "footer": {
+    "copyright": "© {year} Maxi Ruti Studio. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "builtBy": "Creado por"
+  }
+}

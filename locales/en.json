@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Maxi Ruti Studio",
+    "subtitle": "Independent tools & apps crafted with care and intent for iOS, Android, and Web.",
+    "portfolioLink": "Portfolio"
+  },
+  "filters": {
+    "all": "All",
+    "ios": "iOS",
+    "android": "Android"
+  },
+  "card": {
+    "featured": "Featured",
+    "englishOnly": "English only",
+    "languagesCount": "{{count}} languages"
+  },
+  "actions": {
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "website": "Website"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese",
+    "it": "Italian",
+    "fr": "French",
+    "de": "German"
+  },
+  "footer": {
+    "copyright": "© {year} Maxi Ruti Studio. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "builtBy": "Crafted by"
+  }
+}
