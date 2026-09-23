@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Globe } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { AppItem, Locale } from "@/types";
 
@@ -97,10 +97,11 @@ export default function AppCard({ app }: AppCardProps) {
                 href={app.website}
                 target='_blank'
                 rel='noopener noreferrer'
-                className='inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-black/4 hover:bg-black/8 text-neutral-700 hover:text-black text-[11px] font-medium transition-colors border border-black/5 shrink-0'
+                aria-label={t("actions.website")}
+                title={t("actions.website")}
+                className='p-1.5 rounded-full bg-black/4 hover:bg-black/8 text-neutral-600 hover:text-black transition-colors border border-black/5 shrink-0 flex items-center justify-center'
               >
-                <span>{t("actions.website")}</span>
-                <ExternalLink className='w-3 h-3 opacity-60' />
+                <ExternalLink className='w-3.5 h-3.5' />
               </a>
             )}
           </div>
