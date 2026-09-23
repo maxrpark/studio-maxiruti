@@ -18,7 +18,7 @@ export const APPS: AppItem[] = [
     languages: ["en", "es"],
     featured: true,
     stores: {
-      ios: "https://apps.apple.com/app/hanni-learn-korean/id0000000000",
+      ios: "https://apps.apple.com/us/app/hanni-learn-korean-adventure/id6804951859",
       // android:
       //   "https://play.google.com/store/apps/details?id=com.aprendecoreanopasoapaso.app",
     },
@@ -28,6 +28,7 @@ export const APPS: AppItem[] = [
   {
     id: "merame",
     title: "Merame: Match Cut",
+    featured: true,
     tagline: {
       en: "Cinematic Stop Motion & Vlogs",
       es: "Stop motion cinemático y videoblogs creativos",
@@ -42,9 +43,9 @@ export const APPS: AppItem[] = [
     languages: ["en"],
 
     stores: {
-      ios: "https://apps.apple.com/us/app/meleve-before-i-leave-list/id6761100110",
+      ios: "https://apps.apple.com/us/app/merame-match-cut-transitions/id6762237712",
     },
-    website: "https://meleve.maxiruti.com/",
+    website: "https://merame.maxiruti.com",
     tags: ["Video", "Creative"],
   },
   {
@@ -71,6 +72,7 @@ export const APPS: AppItem[] = [
   {
     id: "split",
     title: "Split Workout Tracking",
+    featured: true,
     tagline: {
       en: "Simple PPL workout tracking",
       es: "Seguimiento simple de rutinas Push Pull Legs",

@@ -25,6 +25,13 @@ export default function AppsGrid({ apps }: AppsGridProps) {
     return apps.filter((app) => Boolean(app.stores[selectedPlatform]));
   }, [apps, selectedPlatform]);
 
+  // Inside AppsGrid.tsx
+  const sortedApps = useMemo(() => {
+    return [...filteredApps].sort(
+      (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0),
+    );
+  }, [filteredApps]);
+
   return (
     <div className='space-y-10'>
       <FilterPills
@@ -34,7 +41,7 @@ export default function AppsGrid({ apps }: AppsGridProps) {
       />
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-        {filteredApps.map((app) => (
+        {sortedApps.map((app) => (
           <AppCard key={app.id} app={app} />
         ))}
       </div>

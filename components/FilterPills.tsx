@@ -26,9 +26,19 @@ export default function FilterPills({
     { id: "android", label: t("filters.android"), count: counts.android },
   ];
 
+  // Only show options that have items, but always keep 'all'
+  const visibleOptions = options.filter(
+    (option) => option.id === "all" || option.count > 0,
+  );
+
+  // Hide the pill row entirely if there's only 'all'
+  if (visibleOptions.length <= 1) {
+    return null;
+  }
+
   return (
     <div className='flex items-center gap-2 flex-wrap justify-center'>
-      {options.map((option) => {
+      {visibleOptions.map((option) => {
         const isActive = selectedPlatform === option.id;
         return (
           <button

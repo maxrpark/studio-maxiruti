@@ -36,7 +36,7 @@ const metaTranslations = {
       template: "%s | Maxi Ruti Studio",
     },
     description:
-      "Explora aplicaciones y herramientas digitales independientes creadas por Maxi Ruti con calma, intención y detalle para iOS, Android y Web.",
+      "Aplicaciones y herramientas digitales independientes desarrolladas para iOS y Android.",
     keywords: [
       "Maxi Ruti",
       "Studio",
@@ -52,7 +52,7 @@ const metaTranslations = {
     twitterDescription:
       "Herramientas y aplicaciones independientes creadas con dedicación y diseño intencional.",
     locale: "es_ES",
-    ogImage: "/thumbnails/og-studio.png",
+    ogImage: "/assets/image/og-studio.png",
     ogImageAlt: "Maxi Ruti Studio - Showcase de aplicaciones",
   },
   en: {
@@ -60,8 +60,7 @@ const metaTranslations = {
       default: "Maxi Ruti Studio | Focused Apps & Tools",
       template: "%s | Maxi Ruti Studio",
     },
-    description:
-      "Explore independent digital tools and apps crafted by Maxi Ruti with care and intent for iOS, Android, and Web.",
+    description: "Independent apps and digital tools built for iOS, Android",
     keywords: [
       "Maxi Ruti",
       "Studio",
@@ -77,7 +76,7 @@ const metaTranslations = {
     twitterDescription:
       "Independent tools & apps crafted with care and intent.",
     locale: "en_US",
-    ogImage: "/thumbnails/og-studio.png",
+    ogImage: "/assets/image/og-studio.png",
     ogImageAlt: "Maxi Ruti Studio - Apps Showcase",
   },
 };
