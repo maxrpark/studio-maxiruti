@@ -49,6 +49,27 @@ export const APPS: AppItem[] = [
     tags: ["Video", "Creative"],
   },
   {
+    id: "meleve",
+    title: "Meleve: Before I Leave List",
+    tagline: {
+      en: "Never forget your essentials",
+      es: "No olvides tus artículos indispensables",
+    },
+    description: {
+      en: "Quick checklists to guarantee you leave nothing behind when heading out.",
+      es: "Listas de verificación rápidas para asegurarte de llevar todo antes de salir.",
+    },
+    icon: "/assets/image/icons/meleve.webp",
+    thumbnail: "/assets/image/thumbnails/meleve.webp",
+    accentColor: "#E2E8F0",
+    languages: ["en", "es", "pt"],
+    stores: {
+      ios: "https://apps.apple.com/us/app/meleve-before-i-leave-list/id6761100110",
+    },
+    website: "https://meleve.maxiruti.com/",
+    tags: ["Utilities", "Checklist"],
+  },
+  {
     id: "feelino",
     title: "Feelino",
     tagline: {
@@ -115,27 +136,7 @@ export const APPS: AppItem[] = [
     website: "https://tabs.maxiruti.com",
     tags: ["Productivity", "Utilities"],
   },
-  {
-    id: "meleve",
-    title: "Meleve: Before I Leave List",
-    tagline: {
-      en: "Never forget your essentials",
-      es: "No olvides tus artículos indispensables",
-    },
-    description: {
-      en: "Quick checklists to guarantee you leave nothing behind when heading out.",
-      es: "Listas de verificación rápidas para asegurarte de llevar todo antes de salir.",
-    },
-    icon: "/assets/image/icons/meleve.webp",
-    thumbnail: "/assets/image/thumbnails/meleve.webp",
-    accentColor: "#E2E8F0",
-    languages: ["en", "es", "pt"],
-    stores: {
-      ios: "https://apps.apple.com/us/app/meleve-before-i-leave-list/id6761100110",
-    },
-    website: "https://meleve.maxiruti.com/",
-    tags: ["Utilities", "Checklist"],
-  },
+
   {
     id: "ritual",
     title: "Ritual: Sanctuary",
