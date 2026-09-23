@@ -23,7 +23,6 @@ export default function Navbar({ currentLocale, portfolioLabel }: NavbarProps) {
         <div className='flex items-center gap-6'>
           <a
             href='https://maxiruti.com'
-            target='_blank'
             rel='noopener noreferrer'
             className='inline-flex items-center gap-1.5 text-xs font-semibold text-primary-muted hover:text-primary-dark transition-colors'
           >

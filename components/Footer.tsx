@@ -16,7 +16,6 @@ export default function Footer() {
         <div className='flex items-center gap-6'>
           <a
             href='https://maxiruti.com'
-            target='_blank'
             rel='noopener noreferrer'
             className='inline-flex items-center gap-1 hover:text-primary-dark transition-colors'
           >
