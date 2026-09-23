@@ -19,8 +19,8 @@ export const APPS: AppItem[] = [
     featured: true,
     stores: {
       ios: "https://apps.apple.com/app/hanni-learn-korean/id0000000000",
-      android:
-        "https://play.google.com/store/apps/details?id=com.aprendecoreanopasoapaso.app",
+      // android:
+      //   "https://play.google.com/store/apps/details?id=com.aprendecoreanopasoapaso.app",
     },
     website: "https://app.aprendecoreanopasoapaso.com/en",
     tags: ["Education", "Language"],

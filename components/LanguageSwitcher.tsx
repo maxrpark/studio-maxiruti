@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { ChevronDown } from "lucide-react";
 import i18next from "@/i18n/config";

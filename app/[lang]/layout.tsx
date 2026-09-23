@@ -166,11 +166,7 @@ export default async function RootLayout({ children, params }: Props) {
             portfolioLabel={dict.site.portfolioLink}
           />
           <main className='flex-1'>{children}</main>
-          <Footer
-            copyright={dict.footer.copyright}
-            privacy={dict.footer.privacy}
-            builtBy={dict.footer.builtBy}
-          />
+          <Footer />
         </I18nProvider>
       </body>
     </html>

@@ -41,10 +41,9 @@ export default function AppCard({ app }: AppCardProps) {
           style={{ backgroundColor: app.accentColor || "#F3F4F6" }}
         >
           {app.thumbnail ? (
-            <Image
+            <img
               src={app.thumbnail}
               alt={`${app.title} thumbnail`}
-              fill
               className='object-cover transition-transform duration-500 group-hover:scale-105'
             />
           ) : (
@@ -79,12 +78,12 @@ export default function AppCard({ app }: AppCardProps) {
         {/* Card Body */}
         <div className='p-6 pt-0 relative'>
           <div className='-mt-9 mb-4 relative w-16 h-16 rounded-squircle overflow-hidden border-2 border-surface shadow-md bg-white'>
-            <Image
+            <img
               src={app.icon}
               alt={`${app.title} icon`}
               width={64}
               height={64}
-              className='w-full h-full object-cover'
+              className='w-full h-full object-fit'
             />
           </div>
 
@@ -98,7 +97,7 @@ export default function AppCard({ app }: AppCardProps) {
                 href={app.website}
                 target='_blank'
                 rel='noopener noreferrer'
-                className='inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-black/4 hover:bg-black/8 text-neutral-700 hover:text-black text-[11px] font-medium transition-colors border border-black/5 shrink-0'
+                className='inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-black/[0.04] hover:bg-black/[0.08] text-neutral-700 hover:text-black text-[11px] font-medium transition-colors border border-black/5 shrink-0'
               >
                 <span>{t("actions.website")}</span>
                 <ExternalLink className='w-3 h-3 opacity-60' />
